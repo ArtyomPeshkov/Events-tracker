@@ -45,9 +45,9 @@ public class Category
 }
 ```
 
-## Task Class
+## Event Class
 ```cs
-public class Task
+public class Event
 {
     public int Id { get; set; }
     public string Title { get; set; }
@@ -113,13 +113,13 @@ public class Hasher
 ```
 
 
-## TaskDatabaseInteraction Interface (Almost the same for user and category)
+## EventDatabaseInteraction Interface (Almost the same for user and category)
 ```cs
-public interface ITaskDatabaseInteractor
+public interface IEventDatabaseInteractor
 {
-    Task Add(Task task);
-    Task Update(int taskId);
-    void Delete(int taskId);
+    Event Add(Event event);
+    Event Update(int eventId);
+    void Delete(int eventId);
 
     // Another getters and groupers if needed
 }
@@ -152,3 +152,77 @@ public interface ITaskDatabaseInteractor
 ## 8 Декоратор
 
 - Для логгирования
+
+# Использования принципов SOLID:
+
+## SRP
+
+- Вместо того, чтобы добавлять логику взаимодействия с базой данных в классы Event и Category эта логика была выделена в отдельные обработчики (EventHandler и CategoryHandler), что и позволяет соблюсти SRP
+
+## OCP
+
+- Планируется выделить минимальный достаточный интерфейс для класса Event, например:
+```cs
+public class Event
+{
+    public int Id { get; set; }
+    public string Title { get; set; }
+    public string Description { get; set; }
+    public DateTime DeletionDate { get; set; }
+    public DateTime NextNotificationDate { get; set; }
+    public User User { get; set; }
+    public Category User { get; set; }
+
+    public virtual void Notify();
+    public virtual void Update();
+    // etc.
+}
+```
+- Таким образом если нам понадобится возобновляемое событие или любое другое событие с особым поведением, мы просто отнаследуемся от базового класса и нам не придётся его менять
+
+## LSP
+
+- Также при создании новых событий надо будет следить за тем, что события всё ещё сохраняют своё базовое поведение: уведомления приходят вовремя, событие не меняет категорию само по себе
+- Также это будет важно при взаимодействии с базой данных, классы отвечающие за эту логику должны корректно добавлять, удалять и изменять задачи вне зависимости от конкретной реализации и дополнительных функций, выполняемых этими сущностями
+```cs
+public class RepeatableEvent
+{
+    public int Id { get; set; }
+    public string Title { get; set; }
+    public string Description { get; set; }
+    public DateTime DeletionDate { get; set; }
+    public DateTime NextNotificationDate { get; set; }
+    public DateTime ProlongPeriod { get; set; }
+    public User User { get; set; }
+    public Category User { get; set; }
+}
+```
+
+## ISP
+
+- EventHandler и IEventDatabaseInteractor предоставляет возможность полного взаимодействия с базой данных, но если нам захочется несколькими разными способами обновлять данные, то создавая новый Handler или Interactor нам придётся реализовывать и Delete и Add
+- Вместо этого можно ввести EventUpdater
+
+```cs
+public class EventUpdater
+{
+    public EventUpdater() {}
+    public Event UpdateEvent(int eventId) {}
+
+}
+```
+
+- И унаследовать EventHandler от EventUpdater-а, чтобы изменять и реализовывать только нужные части
+
+## DIP
+
+- Вместо того, чтобы делать AuthModule зависимым более низкоуровневого Hasher-а мы можем выделить интерфейс IHasher:
+
+```cs
+public class IHasher
+{
+    public virtual string GetHash(string password) {}
+}
+```
+
+- И сделать AuthModule зависимым от него, таким образом модуль более высокого уровня не будет зависеть от модуля более низкого уровня
