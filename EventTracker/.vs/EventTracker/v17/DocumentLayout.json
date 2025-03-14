@@ -1,0 +1,400 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{824D6A1A-3700-4585-9134-5423D72E4E99}|Test\\Test.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824D6A1A-3700-4585-9134-5423D72E4E99}|Test\\Test.csproj|solutionrelative:test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\domain\\eventmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|solutionrelative:domain\\eventmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\sqldataaccess\\eventdatabaseinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|solutionrelative:sqldataaccess\\eventdatabaseinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\domain\\ieventdatabaseinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|solutionrelative:domain\\ieventdatabaseinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\domain\\authmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|solutionrelative:domain\\authmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\sqldataaccess\\idataabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|solutionrelative:sqldataaccess\\idataabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\domain\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|solutionrelative:domain\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9E5D88-1AF5-44B9-9E0A-20AFAEA7FD7C}|UI\\UI.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9E5D88-1AF5-44B9-9E0A-20AFAEA7FD7C}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\domain\\ieventmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|solutionrelative:domain\\ieventmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\sqldataaccess\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|solutionrelative:sqldataaccess\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\sqldataaccess\\userdatabaseinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|solutionrelative:sqldataaccess\\userdatabaseinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\domain\\iauthmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|solutionrelative:domain\\iauthmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\sqldataaccess\\interactorsinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|solutionrelative:sqldataaccess\\interactorsinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\sqldataaccess\\sqldataaccess.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|solutionrelative:sqldataaccess\\sqldataaccess.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\sqldataaccess\\sqldataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|solutionrelative:sqldataaccess\\sqldataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\domain\\domain.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\sqldataaccess\\categorydatabaseinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75DC1F8C-103F-4347-8376-B0C6ADE2E2E3}|SQLDataAccess\\SQLDataAccess.csproj|solutionrelative:sqldataaccess\\categorydatabaseinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\domain\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|solutionrelative:domain\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\domain\\iuserdatabaseinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|solutionrelative:domain\\iuserdatabaseinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\domain\\icategorydatabaseinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|solutionrelative:domain\\icategorydatabaseinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|c:\\users\\artyom\\source\\repos\\eventtracker\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17625FE-46F7-45DB-B886-98C66E96A1CC}|Domain\\Domain.csproj|solutionrelative:domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Test\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Test\\UnitTest1.cs",
+              "RelativeToolTip": "Test\\UnitTest1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:14:16.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\Database.cs",
+              "RelativeDocumentMoniker": "SQLDataAccess\\Database.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\Database.cs",
+              "RelativeToolTip": "SQLDataAccess\\Database.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:10:03.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventDatabaseInteractor.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\EventDatabaseInteractor.cs",
+              "RelativeDocumentMoniker": "SQLDataAccess\\EventDatabaseInteractor.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\EventDatabaseInteractor.cs",
+              "RelativeToolTip": "SQLDataAccess\\EventDatabaseInteractor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:11:13.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDataabase.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\IDataabase.cs",
+              "RelativeDocumentMoniker": "SQLDataAccess\\IDataabase.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\IDataabase.cs",
+              "RelativeToolTip": "SQLDataAccess\\IDataabase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:09:32.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InteractorsInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\InteractorsInitializer.cs",
+              "RelativeDocumentMoniker": "SQLDataAccess\\InteractorsInitializer.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\InteractorsInitializer.cs",
+              "RelativeToolTip": "SQLDataAccess\\InteractorsInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T13:00:40.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthModule.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\AuthModule.cs",
+              "RelativeDocumentMoniker": "Domain\\AuthModule.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\AuthModule.cs",
+              "RelativeToolTip": "Domain\\AuthModule.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:25:36.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventModule.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\EventModule.cs",
+              "RelativeDocumentMoniker": "Domain\\EventModule.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\EventModule.cs",
+              "RelativeToolTip": "Domain\\EventModule.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:43:46.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "UI\\Program.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\UI\\Program.cs",
+              "RelativeToolTip": "UI\\Program.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAAwAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T10:20:28.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEventDatabaseInteractor.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\IEventDatabaseInteractor.cs",
+              "RelativeDocumentMoniker": "Domain\\IEventDatabaseInteractor.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\IEventDatabaseInteractor.cs",
+              "RelativeToolTip": "Domain\\IEventDatabaseInteractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:13:40.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\Event.cs",
+              "RelativeDocumentMoniker": "Domain\\Event.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\Event.cs",
+              "RelativeToolTip": "Domain\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:58:20.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryDatabaseInteractor.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\CategoryDatabaseInteractor.cs",
+              "RelativeDocumentMoniker": "SQLDataAccess\\CategoryDatabaseInteractor.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\CategoryDatabaseInteractor.cs",
+              "RelativeToolTip": "SQLDataAccess\\CategoryDatabaseInteractor.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wBQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:11:20.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:43:04.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEventModule.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\IEventModule.cs",
+              "RelativeDocumentMoniker": "Domain\\IEventModule.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\IEventModule.cs",
+              "RelativeToolTip": "Domain\\IEventModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:43:27.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Domain",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-14T16:48:53.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserDatabaseInteractor.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\UserDatabaseInteractor.cs",
+              "RelativeDocumentMoniker": "SQLDataAccess\\UserDatabaseInteractor.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\UserDatabaseInteractor.cs",
+              "RelativeToolTip": "SQLDataAccess\\UserDatabaseInteractor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:11:05.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAuthModule.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\IAuthModule.cs",
+              "RelativeDocumentMoniker": "Domain\\IAuthModule.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\IAuthModule.cs",
+              "RelativeToolTip": "Domain\\IAuthModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:27:58.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SQLDataAccess",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\SQLDataAccess.csproj",
+              "RelativeDocumentMoniker": "SQLDataAccess\\SQLDataAccess.csproj",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\SQLDataAccess.csproj",
+              "RelativeToolTip": "SQLDataAccess\\SQLDataAccess.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-14T16:49:24.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SQLDataAccess",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\SQLDataAccess.csproj",
+              "RelativeDocumentMoniker": "SQLDataAccess\\SQLDataAccess.csproj",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\SQLDataAccess.csproj",
+              "RelativeToolTip": "SQLDataAccess\\SQLDataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-14T16:49:17.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Services.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\Services.cs",
+              "RelativeDocumentMoniker": "Domain\\Services.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\Services.cs",
+              "RelativeToolTip": "Domain\\Services.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:59:33.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserDatabaseInteractor.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\IUserDatabaseInteractor.cs",
+              "RelativeDocumentMoniker": "Domain\\IUserDatabaseInteractor.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\IUserDatabaseInteractor.cs",
+              "RelativeToolTip": "Domain\\IUserDatabaseInteractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:59:11.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICategoryDatabaseInteractor.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\ICategoryDatabaseInteractor.cs",
+              "RelativeDocumentMoniker": "Domain\\ICategoryDatabaseInteractor.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\ICategoryDatabaseInteractor.cs",
+              "RelativeToolTip": "Domain\\ICategoryDatabaseInteractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:59:33.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\Category.cs",
+              "RelativeDocumentMoniker": "Domain\\Category.cs",
+              "ToolTip": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\Category.cs",
+              "RelativeToolTip": "Domain\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:12:24.508Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
