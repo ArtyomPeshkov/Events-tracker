@@ -9,3 +9,15 @@ C:\Users\Artyom\source\repos\EventTracker\Domain\obj\Debug\net8.0\Domain.dll
 C:\Users\Artyom\source\repos\EventTracker\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\Artyom\source\repos\EventTracker\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\Artyom\source\repos\EventTracker\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Domain\bin\Debug\net8.0\Domain.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Domain\obj\Debug\net8.0\Domain.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Domain\obj\Debug\net8.0\ref\Domain.dll

@@ -8,7 +8,7 @@ namespace Domain
 {
     public interface IEventDatabaseInteractor
     {
-        Event Add(string name);
+        Event Add(Event eventItem);
         Event Update(long eventId, Event eventItem);
         void Delete(long eventId);
         Event Get(long eventId);

@@ -16,9 +16,9 @@ namespace SQLDataAccess
             _database = database;
         }
 
-        public Event Add(string eventName)
+        public Event Add(Event eventItem)
         {
-            return _database.Add("Events", new Event { Title = eventName});
+            return _database.Add("Events", eventItem);
         }
 
         public Event Update(long id, Event eventItem)

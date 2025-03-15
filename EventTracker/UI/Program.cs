@@ -117,7 +117,7 @@ class UI
     {
         Console.Write("Enter event name: ");
         var eventName = Console.ReadLine();
-        Console.WriteLine(_eventModule.AddEvent(eventName).Id);
+        Console.WriteLine(_eventModule.AddEvent(eventName, _currentUser.Id).Id);
     }
 
     private static void UpdateEvent()

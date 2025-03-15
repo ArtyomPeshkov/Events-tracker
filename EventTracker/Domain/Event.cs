@@ -19,6 +19,6 @@ namespace Domain
         public bool IsRegular { get; set; }
         public bool IsExtendable { get; set; }
         public long UserId { get; set; }
-        public long CategoryId { get; set; }
+        public long? CategoryId { get; set; }
     }
 }

@@ -15,17 +15,29 @@ namespace Domain
             _eventInteractor = Interactors.EventInteractor;
         }
 
-        public Event AddEvent(string eventName)
+        public Event AddEvent(string eventName, long userId)
         {
-            var result = _eventInteractor.Add(eventName);
-            return result;
+            return _eventInteractor.Add(new Event { Title = eventName, UserId = userId });
         }
 
-        public void UpdateEvent(long eventId, string newEventName)
+        public Event UpdateEvent(long eventId, string newEventName)
         {
-            Event e = new Event();
+            Event e = GetEvent(eventId);
+            if (e == null)
+            {
+                return null;
+            }
             e.Title = newEventName;
-            _eventInteractor.Update(eventId, e);
+            Event result = null;
+            try
+            {
+                result = _eventInteractor.Update(eventId, e);
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            return result;
         }
 
         public void DeleteEvent(long eventId)
@@ -36,7 +48,16 @@ namespace Domain
 
         public Event GetEvent(long eventId)
         {
-            return _eventInteractor.Get(eventId);
+            Event result = null;
+            try
+            {
+                result = _eventInteractor.Get(eventId);
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            return result;
         }
     }
 

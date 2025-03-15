@@ -5676,11 +5676,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Hometasks\\4_course\\C#\\Events-tracker\\EventTracker\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Test\\Test.csproj",
+      "projectPath": "C:\\Hometasks\\4_course\\C#\\Events-tracker\\EventTracker\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\Artyom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Test\\obj\\",
+      "outputPath": "C:\\Hometasks\\4_course\\C#\\Events-tracker\\EventTracker\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5702,11 +5702,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\Domain\\Domain.csproj"
+            "C:\\Hometasks\\4_course\\C#\\Events-tracker\\EventTracker\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Hometasks\\4_course\\C#\\Events-tracker\\EventTracker\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\SQLDataAccess.csproj": {
-              "projectPath": "C:\\Users\\Artyom\\source\\repos\\EventTracker\\SQLDataAccess\\SQLDataAccess.csproj"
+            "C:\\Hometasks\\4_course\\C#\\Events-tracker\\EventTracker\\SQLDataAccess\\SQLDataAccess.csproj": {
+              "projectPath": "C:\\Hometasks\\4_course\\C#\\Events-tracker\\EventTracker\\SQLDataAccess\\SQLDataAccess.csproj"
             }
           }
         }

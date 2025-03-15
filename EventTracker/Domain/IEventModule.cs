@@ -8,8 +8,8 @@ namespace Domain
 {
     public interface IEventModule
     {
-        Event AddEvent(string eventName);
-        void UpdateEvent(long eventId, string newEventName);
+        Event AddEvent(string eventName, long userId);
+        Event UpdateEvent(long eventId, string newEventName);
         void DeleteEvent(long eventId);
         Event GetEvent(long eventId);
     }
