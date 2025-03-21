@@ -224,3 +224,16 @@ C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Micro
 C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\UI.dll
 C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\UI.pdb
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Autofac.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\System.Text.Json.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

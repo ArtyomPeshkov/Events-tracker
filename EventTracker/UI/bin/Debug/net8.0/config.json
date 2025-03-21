@@ -1,0 +1,12 @@
+{
+  "Logger": "SimpleLogger",
+  "Hasher": "SimpleHasher",
+  "DatabaseInterface": "IDatabase",
+  "DatabaseImpl": "Database",
+  "UserInterface": "IUserDatabaseInteractor",
+  "UserImpl": "UserDatabaseInteractor",
+  "EventInterface": "IEventDatabaseInteractor",
+  "EventImpl": "EventDatabaseInteractor",
+  "CategoryInterface": "ICategoryDatabaseInteractor",
+  "CategoryImpl": "CategoryDatabaseInteractor"
+}

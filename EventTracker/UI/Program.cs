@@ -1,4 +1,5 @@
-﻿using Domain;
+﻿using Autofac;
+using Domain;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -10,16 +11,15 @@ namespace UI
         private static IAuthModule _authModule;
         private static IEventModule _eventModule;
         private static User _currentUser;
-        private static ServiceProvider _provider = DISetup.GetProvider();
+        private static IContainer _container = DISetup.GetContainer();
         // Через свойство
-        private static ILogger _logger = _provider.GetRequiredService<ILogger>();
+        private static ILogger _logger = _container.Resolve<ILogger>();
 
         static void Main(string[] args)
         {
-            _provider = DISetup.GetProvider();
             // Через конструктор
-            _authModule = new AuthModule(_provider.GetRequiredService<IUserDatabaseInteractor>());
-            _eventModule = new EventModule(_provider.GetRequiredService<IEventDatabaseInteractor>());
+            _authModule = new AuthModule(_container.Resolve<IUserDatabaseInteractor>());
+            _eventModule = new EventModule(_container.Resolve<IEventDatabaseInteractor>());
             _logger.LogInfo("Started");
             Console.WriteLine("Welcome to the Event Manager!");
             while (true)
@@ -33,11 +33,11 @@ namespace UI
 
                     if (choice == "1")
                     {
-                        SignUp(_provider.GetRequiredService<IHasher>());
+                        SignUp(_container.Resolve<IHasher>());
                     }
                     else if (choice == "2")
                     {
-                        SignIn(_provider.GetRequiredService<IHasher>());
+                        SignIn(_container.Resolve<IHasher>());
                     }
                     else
                     {

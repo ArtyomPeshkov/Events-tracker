@@ -1,11 +1,8 @@
 ﻿using Moq;
 using Domain;
-using System;
-using System.Collections.Generic;
-using Xunit;
-using Castle.Components.DictionaryAdapter.Xml;
 using UI;
 using Microsoft.Extensions.DependencyInjection;
+using Autofac;
 
 namespace Tests
 {
@@ -50,8 +47,8 @@ namespace Tests
 
         public MicrosoftDITests()
         {
-            var provider = DISetup.GetProvider(typeof(EventInteractorMock));
-            _eventModule = new EventModule(provider.GetRequiredService<IEventDatabaseInteractor>());
+            var container = DISetup.GetContainer(typeof(EventInteractorMock));
+            _eventModule = new EventModule(container.Resolve<IEventDatabaseInteractor>());
         }
 
         [Fact]

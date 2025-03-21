@@ -191,6 +191,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.3, )"
