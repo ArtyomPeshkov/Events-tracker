@@ -19,11 +19,6 @@ namespace UI
         {
             var services = new ServiceCollection();
 
-            //var configuration = new ConfigurationBuilder()
-            //    .AddJsonFile("di-config.json", optional: false)
-            //    .Build();
-            //services.AddSingleton<IConfiguration>(configuration);
-
             services.AddSingleton<ILogger, SimpleLogger>();
             services.AddTransient<IHasher, SimpleHasher>();
 
