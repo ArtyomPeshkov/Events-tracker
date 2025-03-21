@@ -39,3 +39,5 @@ C:\Hometasks\4_course\C#\Events-tracker\EventTracker\UI\bin\Debug\net8.0\SQLData
 C:\Hometasks\4_course\C#\Events-tracker\EventTracker\UI\obj\Debug\net8.0\UI.csproj.Up2Date
 C:\Hometasks\4_course\C#\Events-tracker\EventTracker\UI\obj\Debug\net8.0\UI.genruntimeconfig.cache
 C:\Hometasks\4_course\C#\Events-tracker\EventTracker\UI\obj\Debug\net8.0\ref\UI.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\UI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\UI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

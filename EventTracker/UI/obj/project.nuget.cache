@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qj58GuGapTs=",
+  "dgSpecHash": "tiynaxDzt/U=",
   "success": true,
   "projectFilePath": "C:\\Hometasks\\4_course\\C#\\Events-tracker\\EventTracker\\UI\\UI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Artyom\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.3\\microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",
+    "C:\\Users\\Artyom\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

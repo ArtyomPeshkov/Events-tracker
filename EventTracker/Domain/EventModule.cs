@@ -10,9 +10,9 @@ namespace Domain
     {
         private readonly IEventDatabaseInteractor _eventInteractor;
 
-        public EventModule()
+        public EventModule(IEventDatabaseInteractor eventInteractor)
         {
-            _eventInteractor = Interactors.EventInteractor;
+            _eventInteractor = eventInteractor;
         }
 
         public Event AddEvent(string eventName, long userId)

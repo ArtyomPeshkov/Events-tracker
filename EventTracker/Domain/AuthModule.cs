@@ -10,9 +10,9 @@ namespace Domain
     {
         private readonly IUserDatabaseInteractor _userInteractor;
 
-        public AuthModule()
+        public AuthModule(IUserDatabaseInteractor userInteractor)
         {
-            _userInteractor = Interactors.UserInteractor;
+            _userInteractor = userInteractor;
         }
 
         public User SignUp(string login, string password)
