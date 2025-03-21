@@ -2,6 +2,7 @@ using Moq;
 using Domain;
 using System;
 using Xunit;
+using Castle.Components.DictionaryAdapter.Xml;
 
 namespace Tests
 {
@@ -163,9 +164,7 @@ namespace Tests
         [Fact]
         public void ExeptGetTest()
         {
-
             var result = _eventModule.GetEvent(0);
-
 
             Assert.Equal(null, result);
             _mockEventInteractor.Verify(m => m.Get(It.IsAny<long>()), Times.Once);
