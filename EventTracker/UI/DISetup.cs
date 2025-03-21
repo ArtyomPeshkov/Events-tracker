@@ -15,7 +15,7 @@ namespace UI
 {
     public class DISetup
     {
-        public static ServiceProvider GetProvider()
+        public static ServiceProvider GetProvider(Type CustomEventInteractor = null)
         {
             var services = new ServiceCollection();
 
@@ -40,7 +40,14 @@ namespace UI
 
             var iEventDatabaseInteractor = domainAssembly.GetType("Domain.IEventDatabaseInteractor");
             var EventInteractor = dataAssembly.GetType("SQLDataAccess.EventDatabaseInteractor");
-            services.AddScoped(iEventDatabaseInteractor, EventInteractor);
+            if (CustomEventInteractor != null)
+            {
+                services.AddScoped(iEventDatabaseInteractor, CustomEventInteractor);
+            }
+            else
+            {
+                services.AddScoped(iEventDatabaseInteractor, EventInteractor);
+            }
 
             var iUserDatabaseInteractor = domainAssembly.GetType("Domain.IUserDatabaseInteractor");
             var UserInteractor = dataAssembly.GetType("SQLDataAccess.UserDatabaseInteractor");

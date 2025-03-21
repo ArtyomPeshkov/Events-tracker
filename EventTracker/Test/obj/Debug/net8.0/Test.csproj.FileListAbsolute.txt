@@ -217,3 +217,10 @@ C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\obj\Debug\net8.0\refin
 C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\obj\Debug\net8.0\Test.pdb
 C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\obj\Debug\net8.0\Test.genruntimeconfig.cache
 C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\obj\Debug\net8.0\ref\Test.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\UI.deps.json
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\UI.runtimeconfig.json
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\UI.exe
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\UI.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\Test\bin\Debug\net8.0\UI.pdb

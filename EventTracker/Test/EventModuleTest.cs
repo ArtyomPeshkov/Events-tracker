@@ -48,14 +48,9 @@ namespace Tests
             _mockEventInteractor = new Mock<IEventDatabaseInteractor>();
             _stubCategoryInteractor = new Mock<ICategoryDatabaseInteractor>();
             _stubUserInteractor = new Mock<IUserDatabaseInteractor>();
-
-            Interactors.EventInteractor = _mockEventInteractor.Object;
-            Interactors.CategoryInteractor = _stubCategoryInteractor.Object;
-            Interactors.UserInteractor = _stubUserInteractor.Object;
-
             DefaultSetupMock();
 
-            _eventModule = new EventModule();
+            _eventModule = new EventModule(_mockEventInteractor.Object);
         }
 
         [Fact]
