@@ -54,7 +54,7 @@ namespace Tests
         [Fact]
         public void CoreAddTest()
         {
-            var result = _eventModule.AddEvent("Test", 0);
+            var result = _eventModule.AddEvent("Test", "Test", 0);
             Assert.Equal("Test", result.Title);
             Assert.True(result.Id > 0);
         }
@@ -62,7 +62,7 @@ namespace Tests
         [Fact]
         public void CoreDeleteTest()
         {
-            var result = _eventModule.AddEvent("Test", 0);
+            var result = _eventModule.AddEvent("Test", "Test", 0);
             _eventModule.DeleteEvent(result.Id);
             Assert.Null(_eventModule.GetEvent(result.Id));
         }
@@ -70,15 +70,15 @@ namespace Tests
         [Fact]
         public void CoreUpdateTest()
         {
-            var result = _eventModule.AddEvent("Test", 0);
-            result = _eventModule.UpdateEvent(result.Id, "NewTest");
+            var result = _eventModule.AddEvent("Test", "Test", 0);
+            result = _eventModule.UpdateEvent(result.Id, "NewTest", "NewTest");
             Assert.Equal("NewTest", result.Title);
         }
 
         [Fact]
         public void CoreGetTest()
         {
-            var result = _eventModule.AddEvent("Test", 0);
+            var result = _eventModule.AddEvent("Test", "Test", 0);
             result = _eventModule.GetEvent(result.Id);
             Assert.Equal("Test", result.Title);
         }
@@ -86,7 +86,7 @@ namespace Tests
         [Fact]
         public void CoreDeleteNonExistentEventTest()
         {
-            var result = _eventModule.AddEvent("Test", 0);
+            var result = _eventModule.AddEvent("Test", "Test", 0);
             _eventModule.DeleteEvent(result.Id);
             _eventModule.DeleteEvent(result.Id); 
             Assert.Null(_eventModule.GetEvent(result.Id));
@@ -95,8 +95,8 @@ namespace Tests
         [Fact]
         public void CoreAddMultipleEventsTest()
         {
-            var event1 = _eventModule.AddEvent("Event 1", 0);
-            var event2 = _eventModule.AddEvent("Event 2", 0);
+            var event1 = _eventModule.AddEvent("Event 1", "Event 1", 0);
+            var event2 = _eventModule.AddEvent("Event 2", "Event 2", 0);
 
             Assert.NotEqual(event1.Id, event2.Id);
             Assert.Equal("Event 1", event1.Title);
@@ -106,8 +106,8 @@ namespace Tests
         [Fact]
         public void CoreGetAllEventsTest()
         {
-            var event1 = _eventModule.AddEvent("Event 1", 0);
-            var event2 = _eventModule.AddEvent("Event 2", 0);
+            var event1 = _eventModule.AddEvent("Event 1", "Event 1", 0);
+            var event2 = _eventModule.AddEvent("Event 2", "Event 2", 0);
 
             Assert.Equal(event1, _eventModule.GetEvent(event1.Id));
             Assert.Equal(event2, _eventModule.GetEvent(event2.Id));

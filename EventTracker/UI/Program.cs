@@ -125,7 +125,9 @@ namespace UI
         {
             Console.Write("Enter event name: ");
             var eventName = Console.ReadLine();
-            Console.WriteLine(_eventModule.AddEvent(eventName, _currentUser.Id).Id);
+            Console.Write("Enter event description: ");
+            var eventDdescription = Console.ReadLine();
+            Console.WriteLine(_eventModule.AddEvent(eventName, eventDdescription, _currentUser.Id).Id);
         }
 
         private static void UpdateEvent()
@@ -134,7 +136,9 @@ namespace UI
             var eventId = long.Parse(Console.ReadLine());
             Console.Write("Enter new event name: ");
             var newEventName = Console.ReadLine();
-            _eventModule.UpdateEvent(eventId, newEventName);
+            Console.Write("Enter event description: ");
+            var neweventDdescription = Console.ReadLine();
+            _eventModule.UpdateEvent(eventId, newEventName, neweventDdescription);
         }
 
         private static void DeleteEvent()

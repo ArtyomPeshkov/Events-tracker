@@ -9,10 +9,23 @@ namespace SQLDataAccess
 {
     public interface IDatabase
     {
-        T Add<T>(string tableName, T item);
-        T Update<T>(string tableName, long id, T item);
-        void Delete<T>(string tableName, long id);
-        T Get<T>(string tableName, long id);
+        Event AddEvent(Event newEvent, List<long> categoryIds = null);
+        Event UpdateEvent(long id, Event updatedEvent, List<long> categoryIds = null);
+        void DeleteEvent(long id);
+        Event GetEvent(long id);
+
+        User AddUser(User newUser);
+        User UpdateUser(long id, User updatedUser);
+        void DeleteUser(long id);
+        User GetUser(long id);
+
+        Category AddCategory(Category newCategory);
+        Category UpdateCategory(long id, Category updatedCategory);
+        void DeleteCategory(long id);
+        Category GetCategory(long id);
+
         User? GetByLogin(string login);
+        Category? GetCategoryByName(string title);
     }
+
 }

@@ -10,5 +10,7 @@ namespace Domain
     {
         public long Id { get; set; }
         public string Title { get; set; }
+
+        public ICollection<EventCategory> EventCategories { get; set; } // Navigation property for N:N relationship
     }
 }

@@ -18,12 +18,12 @@ namespace SQLDataAccess
 
         public User Add(User user)
         {
-            return _database.Add<User>("Users", user);
+            return _database.AddUser(user);
         }
 
         public User Get(long userId)
         {
-            return _database.Get<User>("Users", userId);
+            return _database.GetUser(userId);
         }
 
         public User? GetByLogin(string login)

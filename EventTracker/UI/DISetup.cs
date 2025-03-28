@@ -4,6 +4,8 @@ using System.Reflection;
 using SQLDataAccess;
 using Microsoft.Extensions.Configuration;
 using System.ComponentModel;
+using System.Configuration;
+using Microsoft.EntityFrameworkCore;
 
 namespace UI
 {
@@ -22,7 +24,7 @@ namespace UI
                 builder.RegisterType<SimpleLogger>().As<ILogger>().SingleInstance();
             }
 
-            if (configuration["Hasher"] == "HasherLogger")
+            if (configuration["Hasher"] == "SimpleHasher")
             {
                 builder.RegisterType<SimpleHasher>().As<IHasher>().SingleInstance();
             }
@@ -30,9 +32,33 @@ namespace UI
             var dataAssembly = Assembly.Load("SQLDataAccess");
             var domainAssembly = Assembly.Load("Domain");
 
+            var eventDbContextType = dataAssembly.GetType("SQLDataAccess." + configuration["Context"]);
+            builder.Register(c =>
+            {
+                var optionsBuilder = new DbContextOptionsBuilder();
+                if (configuration["DBType"] == "SQL")
+                {
+                    optionsBuilder.UseSqlServer(configuration["ConnectionString"]);
+                }
+                else
+                {
+                    optionsBuilder.UseInMemoryDatabase("InMemory");
+                }
+
+                var dbContextType = dataAssembly.GetType("SQLDataAccess." + configuration["Context"]);
+
+                var constructorInfo = dbContextType.GetConstructor(new[] { typeof(DbContextOptions) });
+                if (constructorInfo == null)
+                {
+                    throw new InvalidOperationException($"No suitable constructor found for {dbContextType.Name}");
+                }
+
+                return constructorInfo.Invoke(new object[] { optionsBuilder.Options });
+            }).As(eventDbContextType).InstancePerLifetimeScope();
+
             var idatabaseType = dataAssembly.GetType("SQLDataAccess." + configuration["DatabaseInterface"]);
             var databaseType = dataAssembly.GetType("SQLDataAccess." + configuration["DatabaseImpl"]);
-            builder.RegisterType(databaseType).As(idatabaseType).SingleInstance();
+            builder.RegisterType(databaseType).As(idatabaseType).InstancePerLifetimeScope();
 
             var iCategoryDatabaseInteractor = domainAssembly.GetType("Domain." + configuration["CategoryInterface"]);
             var CategoryInteractor = dataAssembly.GetType("SQLDataAccess." + configuration["CategoryImpl"]);

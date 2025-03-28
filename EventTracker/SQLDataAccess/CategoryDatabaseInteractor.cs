@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain;
+﻿using Domain;
 
 namespace SQLDataAccess
 {
@@ -18,22 +13,27 @@ namespace SQLDataAccess
 
         public Category Add(Category categoryItem)
         {
-            return _database.Add("Categorys", categoryItem);
+            return _database.AddCategory(categoryItem);
         }
 
         public Category Update(long id, Category categoryItem)
         {
-            return _database.Update("Categorys", id, categoryItem);
+            return _database.UpdateCategory(id, categoryItem);
         }
 
         public void Delete(long categoryId)
         {
-            _database.Delete<Category>("Categorys", categoryId);
+            _database.DeleteCategory(categoryId);
         }
 
         public Category Get(long categoryId)
         {
-            return _database.Get<Category>("Categorys", categoryId);
+            return _database.GetCategory(categoryId);
+        }
+
+        public Category GetByName(string title)
+        {
+            return _database.GetCategoryByName(title);
         }
     }
 }

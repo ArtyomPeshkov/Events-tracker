@@ -9,12 +9,12 @@ namespace SQLDataAccess
 {
     internal class InteractorsInitializer
     {
-        public static void init()
-        {
-            IDatabase database = new Database();
-            Interactors.UserInteractor = new UserDatabaseInteractor(database);
-            Interactors.CategoryInteractor = new CategoryDatabaseInteractor(database);
-            Interactors.EventInteractor = new EventDatabaseInteractor(database);
-        }
+        //public static void init()
+        //{
+        //    IDatabase database = new Database();
+        //    Interactors.UserInteractor = new UserDatabaseInteractor(database);
+        //    Interactors.CategoryInteractor = new CategoryDatabaseInteractor(database);
+        //    Interactors.EventInteractor = new EventDatabaseInteractor(database);
+        //}
     }
 }

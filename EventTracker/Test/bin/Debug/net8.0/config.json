@@ -8,5 +8,8 @@
   "EventInterface": "IEventDatabaseInteractor",
   "EventImpl": "EventDatabaseInteractor",
   "CategoryInterface": "ICategoryDatabaseInteractor",
-  "CategoryImpl": "CategoryDatabaseInteractor"
+  "CategoryImpl": "CategoryDatabaseInteractor",
+  "DBType": "InMem",
+  "ConnectionString": "Data Source=HOME-PC\\SQLEXPRESS;Initial Catalog=Test;Integrated Security=True;TrustServerCertificate=True",
+  "Context": "EventDBContext"
 }

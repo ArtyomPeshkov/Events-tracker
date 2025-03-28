@@ -57,7 +57,7 @@ namespace Tests
         public void CoreAddTest()
         {
 
-            var result = _eventModule.AddEvent("Test", 0);
+            var result = _eventModule.AddEvent("Test", "Test", 0);
 
             Assert.Equal("Test", result.Title);
             _mockEventInteractor.Verify(m => m.Add(It.IsAny<Event?>()), Times.Once);
@@ -67,7 +67,7 @@ namespace Tests
         public void CoreDeleteTest()
         {
 
-            var result = _eventModule.AddEvent("Test", 0);
+            var result = _eventModule.AddEvent("Test", "Test",0);
             _eventModule.DeleteEvent(result.Id);
 
             Assert.Equal(null, _eventModule.GetEvent(result.Id));
@@ -79,8 +79,8 @@ namespace Tests
         public void CoreUpdateTest()
         {
 
-            var result = _eventModule.AddEvent("Test", 0);
-            result = _eventModule.UpdateEvent(result.Id, "NewTest");
+            var result = _eventModule.AddEvent("Test", "Test",0);
+            result = _eventModule.UpdateEvent(result.Id, "NewTest", "NewTest");
 
             Assert.Equal("NewTest", result.Title);
             _mockEventInteractor.Verify(m => m.Add(It.IsAny<Event?>()), Times.Once);
@@ -91,7 +91,7 @@ namespace Tests
         public void CoreGetTest()
         {
 
-            var result = _eventModule.AddEvent("Test", 0);
+            var result = _eventModule.AddEvent("Test", "Test",0);
             result = _eventModule.GetEvent(result.Id);
 
 
@@ -104,7 +104,7 @@ namespace Tests
         public void EdgeAddTest()
         {
 
-            var result = _eventModule.AddEvent(null, 0);
+            var result = _eventModule.AddEvent(null, null, 0);
 
 
             Assert.Equal(null, result.Title);
@@ -114,8 +114,8 @@ namespace Tests
         [Fact]
         public void EdgeUpdateTest()
         {
-            var result = _eventModule.AddEvent("Test", 0);
-            result = _eventModule.UpdateEvent(result.Id, null);
+            var result = _eventModule.AddEvent("Test", "Test",0);
+            result = _eventModule.UpdateEvent(result.Id, null, null);
 
             Assert.Equal(null, result.Title);
             _mockEventInteractor.Verify(m => m.Add(It.IsAny<Event?>()), Times.Once);
@@ -125,7 +125,7 @@ namespace Tests
         [Fact]
         public void EdgeGetTest()
         {
-            var result = _eventModule.AddEvent(null, 0);
+            var result = _eventModule.AddEvent(null, null, 0);
             result = _eventModule.GetEvent(result.Id);
 
 
@@ -137,8 +137,8 @@ namespace Tests
         [Fact]
         public void ExeptUpdateTest()
         {
-            var result_old = _eventModule.AddEvent("Test", 0);
-            var result_new = _eventModule.UpdateEvent(-1, "NewTest");
+            var result_old = _eventModule.AddEvent("Test", "Test",0);
+            var result_new = _eventModule.UpdateEvent(-1, "NewTest", "NewTest");
             result_old = _eventModule.GetEvent(result_old.Id);
 
             Assert.Equal("Test", result_old.Title);

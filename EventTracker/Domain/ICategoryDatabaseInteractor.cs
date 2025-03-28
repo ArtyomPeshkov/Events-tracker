@@ -12,5 +12,6 @@ namespace Domain
         Category Update(long categoryId, Category categoryItem);
         void Delete(long categoryId);
         Category Get(long categoryId);
+        Category GetByName(string title);
     }
 }

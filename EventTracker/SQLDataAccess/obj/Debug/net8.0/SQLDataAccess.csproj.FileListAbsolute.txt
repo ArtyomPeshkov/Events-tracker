@@ -29,3 +29,5 @@ C:\Hometasks\4_course\C#\Events-tracker\EventTracker\SQLDataAccess\obj\Debug\net
 C:\Hometasks\4_course\C#\Events-tracker\EventTracker\SQLDataAccess\obj\Debug\net8.0\refint\SQLDataAccess.dll
 C:\Hometasks\4_course\C#\Events-tracker\EventTracker\SQLDataAccess\obj\Debug\net8.0\SQLDataAccess.pdb
 C:\Hometasks\4_course\C#\Events-tracker\EventTracker\SQLDataAccess\obj\Debug\net8.0\ref\SQLDataAccess.dll
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\SQLDataAccess\bin\Debug\net8.0\SQLDataAccess.runtimeconfig.json
+C:\Hometasks\4_course\C#\Events-tracker\EventTracker\SQLDataAccess\obj\Debug\net8.0\SQLDataAccess.genruntimeconfig.cache

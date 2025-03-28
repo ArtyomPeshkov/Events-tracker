@@ -15,12 +15,12 @@ namespace Domain
             _eventInteractor = eventInteractor;
         }
 
-        public Event AddEvent(string eventName, long userId)
+        public Event AddEvent(string eventName, string eventDescr, long userId)
         {
-            return _eventInteractor.Add(new Event { Title = eventName, UserId = userId });
+            return _eventInteractor.Add(new Event { Title = eventName, Description = eventDescr, UserId = userId });
         }
 
-        public Event UpdateEvent(long eventId, string newEventName)
+        public Event UpdateEvent(long eventId, string newEventName, string description)
         {
             Event e = GetEvent(eventId);
             if (e == null)
@@ -28,6 +28,7 @@ namespace Domain
                 return null;
             }
             e.Title = newEventName;
+            e.Description = description;
             Event result = null;
             try
             {

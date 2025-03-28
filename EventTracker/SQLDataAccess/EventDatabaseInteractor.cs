@@ -1,9 +1,4 @@
 ﻿using Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SQLDataAccess
 {
@@ -18,22 +13,24 @@ namespace SQLDataAccess
 
         public Event Add(Event eventItem)
         {
-            return _database.Add("Events", eventItem);
+            // TODO: add support of passing categories ids
+            return _database.AddEvent(eventItem);
         }
 
         public Event Update(long id, Event eventItem)
         {
-            return _database.Update("Events", id, eventItem);
+            // TODO: add support of passing categories ids
+            return _database.UpdateEvent(id, eventItem);
         }
 
         public void Delete(long eventId)
         {
-            _database.Delete<Event>("Events", eventId);
+            _database.DeleteEvent(eventId);
         }
 
         public Event Get(long eventId)
         {
-            return _database.Get<Event>("Events", eventId);
+            return _database.GetEvent(eventId);
         }
     }
 }
